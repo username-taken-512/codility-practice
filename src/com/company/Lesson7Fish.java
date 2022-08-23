@@ -20,7 +20,6 @@ public class Lesson7Fish {
 
             if (B[i] == 1) {
                 downStack.push(A[i]);
-                continue;
             } else {
                 while (!downStack.isEmpty()) {
                     fishEaten++;
